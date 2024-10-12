@@ -1,3 +1,7 @@
+.wrapper {
+    height: 754px;
+}
+
 .navbar img{
     width: 109px;
     height: 53px;
@@ -7,10 +11,165 @@
     opacity: 0px;
 }
 
+.navbar .btn {
+    border-color: #ED017F;
+}
+
+.nav-item-search {
+    margin-right: 20px;
+    margin-top: 3px;
+}
+
 .nav-item svg {
     color: #ED017F;
 }
 
 .nav-item button {
     background-color: #ED017F;
+}
+
+
+
+.hero .title{
+    width: 553px;
+    height: 136px;
+    margin-top: 170px;
+    margin-left: 135px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.hero .title p{
+    font-weight: 900;
+    font-size: 63px;
+    line-height: 68px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.hero .paragraph {
+    width: 350px;
+    height: 44px;
+    margin-left : 135px;
+    margin-top: 20px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+
+.hero .paragraph p {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+
+}
+
+.apply-online {
+    margin-right: 0;
+    margin-left: auto;
+}
+
+.hero .row .btn-primary {
+    background-color: #ED017F;
+    border: #ED017F;
+}
+
+.hero .row .btn-outline-primary {
+    color: #ED017F;
+    /* background-color: white; */
+    border-color: #ED017F; 
+}
+
+.hero .row .btn-outline-primary:hover {
+    background-color: white;
+}
+
+.hero .row-button {
+    margin-top: 20px;
+    margin-left: 80px;
+}
+
+.hero .contact-list {
+    width: 265px;
+    height: 36px;
+    margin-top: 180px;
+    margin-left: 135px;
+    gap: 0px;
+    justify: space-between;
+    opacity: 0px;
+}
+
+.hero .contact-list .telephone-icon svg {
+    width: 24px;
+    height: 24px;
+    padding: 2.04px 2.09px 2.09px 1.98px;
+    gap: 0px;
+    opacity: 0px;
+    color: #ED017F;
+}
+
+.hero .contact-list .phone-number {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.hero .contact-list .icon a {
+    width: 24px;
+}
+
+.fa-facebook {
+    color: #4b7fcd;
+}
+
+.fa-youtube {
+    color: #ff0000;
+}
+
+.fa-linkedin {
+    color: #4a71fb;
+}
+
+.fa-instagram {
+    color: #ed017f;
+}
+
+.hero .family-picture img {
+    width: 850px;
+    margin-left: auto;
+    margin-right: 0;
+    margin-top: 130px;
+    opacity: 0px;
+}
+
+.hero .family {
+    background-color: #FFEAF5;
+    margin-left: auto;
+    margin-right: 0;
+    height: 650px;
+    width: 750px;
+    margin-top: -80px;
+    margin-bottom: auto;
+}
+
+.features .title{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 43px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.features .subtitle {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: center;
+    color: #999999;
 }
