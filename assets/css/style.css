@@ -1,0 +1,16 @@
+.navbar img{
+    width: 109px;
+    height: 53px;
+    top: 27px;
+    left: 135px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.nav-item svg {
+    color: #ED017F;
+}
+
+.nav-item button {
+    background-color: #ED017F;
+}
