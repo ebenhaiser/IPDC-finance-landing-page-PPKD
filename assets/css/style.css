@@ -1,7 +1,7 @@
 body {
     width: 100%;
-    max-width: 1600px;
-    min-width: 1600px;
+    max-width: 1440px;
+    min-width: 1440px;
     /* display: flex; */
     justify-content: center;
     margin: 0;
@@ -21,11 +21,28 @@ body {
     top: 27px;
     left: 135px;
     gap: 0px;
-    opacity: 0px;
+    opacity: 0px;    
+}
+
+.navbar .nav-link {
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-align: left;
 }
 
 .navbar .btn {
     border-color: #ED017F;
+    width: Hug (108px)px;
+    height: Hug (36px)px;
+    top: 35px;
+    left: 1196px;
+    padding: 8px 20px 8px 20px;
+    gap: 10px;
+    border-radius: 4px;
+    opacity: 0px;
+
 }
 
 .nav-item-search {
@@ -35,13 +52,13 @@ body {
 
 .nav-item svg {
     color: #ED017F;
+    width: 24px;
+    height: 24px;
 }
 
 .nav-item button {
     background-color: #ED017F;
 }
-
-
 
 .hero .title{
     width: 553px;
@@ -53,10 +70,11 @@ body {
 }
 
 .hero .title p{
-    font-weight: 900;
     font-size: 63px;
+    font-weight: 900;
     line-height: 68px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: left;
+
 }
 
 .hero .paragraph {
@@ -70,11 +88,11 @@ body {
 }
 
 .hero .paragraph p {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 22px;
     text-align: left;
+    
 
 }
 
@@ -86,12 +104,30 @@ body {
 .hero .row .btn-primary {
     background-color: #ED017F;
     border: #ED017F;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-align: center;
+    width: 157px;
+    height: 46px;
+    gap: 0px;
+    opacity: 0px;
+    
 }
 
 .hero .row .btn-outline-primary {
     color: #ED017F;
     /* background-color: white; */
     border-color: #ED017F; 
+    width: 188px;
+    height: 46px;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-align: center;
+
 }
 
 .hero .row .btn-outline-primary:hover {
@@ -100,7 +136,7 @@ body {
 
 .hero .row-button {
     margin-top: 20px;
-    margin-left: 80px;
+    margin-left: 121px;
 }
 
 .hero .contact-list {
@@ -116,23 +152,23 @@ body {
 .hero .contact-list .telephone-icon svg {
     width: 24px;
     height: 24px;
-    padding: 2.04px 2.09px 2.09px 1.98px;
     gap: 0px;
     opacity: 0px;
     color: #ED017F;
 }
 
 .hero .contact-list .phone-number {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 17px;
     font-weight: 600;
     line-height: 22px;
     letter-spacing: 1px;
     text-align: center;
+    
 }
 
 .hero .contact-list .icon a {
     width: 24px;
+    height: 24px;
 }
 
 .fa-facebook {
@@ -255,6 +291,8 @@ body {
     width: 450px;
     height: 290px;
     border: 0;
+    margin-left: 120px;
+    margin-top: 100px;
 }
 
 .about .card .card-title {
@@ -271,3 +309,40 @@ body {
     text-align: left;
 }
 
+.about .card .card-link {
+    font-size: 19.33px;
+    font-weight: 400;
+    line-height: 26.58px;
+    text-align: left;
+    color: #ED017F;
+    text-decoration: none;
+}
+
+.services {
+    height: 842px;
+    background-color: #FEF9FC;
+}
+
+.services .title {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 43px;
+    text-align: center;
+}
+
+.services .subtitle {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: center;
+    color: #999999;
+}
+
+.services .card {
+    width: 254px;
+    height: 457px;
+    gap: 22px;
+    border-radius: 9px 0px 0px 0px;
+    opacity: 0px;
+
+}
