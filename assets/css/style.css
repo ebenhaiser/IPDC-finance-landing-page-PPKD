@@ -489,7 +489,7 @@ body {
 }
 
 .footer {
-    height: 700px;
+    height: 350px;
 }
 
 .footer .card {
@@ -522,6 +522,8 @@ body {
 .footer .card-5 {
     width: 180px;
     height: 192px;
+    margin-right: 0;
+    margin-left: auto;
 }
 
 .footer .card-5 .telephone-icon svg {
