@@ -60,6 +60,10 @@ body {
     background-color: #ED017F;
 }
 
+.hero {
+    height: 654px;
+}
+
 .hero .title{
     width: 553px;
     height: 136px;
@@ -173,18 +177,22 @@ body {
 
 .fa-facebook {
     color: #4b7fcd;
+    text-decoration: none;
 }
 
-.fa-youtube {
+.fa-youtube-play {
     color: #ff0000;
+    text-decoration: none;
 }
 
 .fa-linkedin {
     color: #4a71fb;
+    text-decoration: none;
 }
 
 .fa-instagram {
     color: #ed017f;
+    text-decoration: none;
 }
 
 .hero .family-picture img {
@@ -204,6 +212,10 @@ body {
     width: 750px;
     margin-top: -80px;
     margin-bottom: auto;
+}
+
+.features {
+    height: 820px;
 }
 
 .features .title{
@@ -323,6 +335,10 @@ body {
     background-color: #FEF9FC;
 }
 
+.services .row {
+    gap: 50px;
+}
+
 .services .title {
     font-size: 36px;
     font-weight: 700;
@@ -344,5 +360,210 @@ body {
     gap: 22px;
     border-radius: 9px 0px 0px 0px;
     opacity: 0px;
+    border: none;
+    background-color: transparent;
+    margin-top: 60px;
+    margin-left: -30px;
+}
 
+.services .card .card-body img {
+    width: 254px;
+    height: 365px;
+    gap: 0px;
+    border-radius: 9px 0px 0px 0px;
+    opacity: 0px;
+}
+
+.services .card .card-body .card-title {
+    font-size: 21px;
+    font-weight: 600;
+    line-height: 35px;
+    letter-spacing: 1px;
+    text-align: left;
+}
+
+.services .card .card-body .card-link {
+    width: 30.83px;
+    height: 30.83px;
+    top: 3.08px;
+    left: 3.08px;
+    gap: 0px;
+    opacity: 0px;
+    color: #FCE0EF;
+}
+
+.services .card .card-body .card-link svg {
+    color: #ED017F;
+    stroke-width: 400;
+}
+
+.best-result {
+    height: 662px;
+}
+
+.best-result .title {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 43px;
+    text-align: center;
+}
+
+.best-result .subtitle {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: center;
+    color: #999999;
+}
+
+.best-result .card {
+    width: 180px;
+    height: 76px;
+    border: none;
+}
+
+.best-result .card .card-title {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 43px;
+    text-align: left;
+}
+
+.best-result .card  .active {
+    color: #ED017F;
+}
+
+
+.best-result .card .card-text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 1px;
+    text-align: left;
+    color: #676767;
+}
+
+.newsletter {
+    height: 403px;
+    background-color: #FEF9FC;
+}
+
+.newsletter .title {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 43px;
+    text-align: center;
+}
+
+.newsletter .subtitle {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: center;
+    color: #999999;
+}
+
+.newsletter input {
+    width: 343px;
+    height: 46px;
+    padding: 12px 15px 12px 15px;
+    gap: 10px;
+    border-radius: 4px;
+    border: 1px black solid;
+    opacity: 0px;
+    margin-right: 10px;
+}
+
+.newsletter .form-inline .btn {
+    width: 132px;
+    height: 46px;
+    border-radius: 4px;
+    background-color: #ED017F;
+    border: #ED017F;
+    margin-top: -7px;
+}
+
+.newsletter .form-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.footer {
+    height: 700px;
+}
+
+.footer .card {
+    /* gap: 0; */
+    border: none;
+    /* margin-left: 10px; */
+}
+
+.footer .card-1 p {
+    width: 160px;
+    height: 192px;
+}
+
+.footer .card-2 {
+    width: 140px;
+    height: 192px;
+    /* margin-left: 100px; */
+}
+
+.footer .card-3 {
+    width: 140px;
+    height: 192px;
+}
+
+.footer .card-4 {
+    width: 160px;
+    height: 192px;
+}
+
+.footer .card-5 {
+    width: 180px;
+    height: 192px;
+}
+
+.footer .card-5 .telephone-icon svg {
+    width: 24px;
+    height: 24px;
+    gap: 0px;
+    opacity: 0px;
+    color: #ED017F;
+}
+
+.footer .card-5 .phone-number p {
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 1px;
+    text-align: center;
+    color: black;
+    margin-left: 10px;
+}
+
+.footer .card .title {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    text-align: left;
+}
+
+.footer .card p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+    color: #676767;
+
+}
+
+.footer .card-1, .card-2, .card-3, .card-4, .card-5 {
+    /* margin-left: 100px;   */
+}
+
+.footer .icon {
+    margin-top: -50px;
+    letter-spacing: 8px;
+    text-decoration: none;
 }
