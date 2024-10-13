@@ -175,12 +175,12 @@ body {
     height: 24px;
 }
 
-.fa-facebook {
+.fa-facebook-f {
     color: #4b7fcd;
     text-decoration: none;
 }
 
-.fa-youtube-play {
+.fa-youtube {
     color: #ff0000;
     text-decoration: none;
 }
@@ -366,6 +366,10 @@ body {
     margin-left: -30px;
 }
 
+.services .card .card-body {
+    width: 275px;
+}
+
 .services .card .card-body img {
     width: 254px;
     height: 365px;
@@ -394,7 +398,7 @@ body {
 
 .services .card .card-body .card-link svg {
     color: #ED017F;
-    stroke-width: 400;
+    /* stroke-width: 400; */
 }
 
 .best-result {
