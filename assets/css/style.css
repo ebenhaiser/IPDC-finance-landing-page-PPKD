@@ -1,3 +1,16 @@
+body {
+    width: 100%;
+    max-width: 1600px;
+    min-width: 1600px;
+    /* display: flex; */
+    justify-content: center;
+    margin: 0;
+    align-items: center;
+    height: 100vh;
+    place-items: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
 .wrapper {
     height: 754px;
 }
@@ -140,6 +153,7 @@
 
 .hero .family-picture img {
     width: 850px;
+    /* width: 1500px; */
     margin-left: auto;
     margin-right: 0;
     margin-top: 130px;
@@ -173,3 +187,87 @@
     text-align: center;
     color: #999999  ;
 }
+
+.features .card {
+    border: 0;
+    width: 180px;
+    margin-top: 40px;
+}
+
+.features .card img {
+    width: 37px;
+    height: 37px;
+}
+
+.features .card .card-title {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 22px;
+    text-align: left;
+}
+
+.features .card .card-text {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #999999  ;
+
+}
+
+.features .card img {
+    margin-bottom: 20px;
+}
+
+.bussiness-partner {
+    height: 450px;
+    background-color: #FCE0EF33;
+}
+
+.bussiness-partner .title  {
+    /* font-family: Metropolis; */
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 23px;
+    /* letter-spacing: 2.0999999046325684px; */
+    text-align: left;
+}
+
+.bussiness-partner .logo img{
+    width: 185.71px;
+    height: 110.36px;
+    padding: 0px 0px 0.08px 0px;
+    gap: 0px;
+    opacity: 0px;
+    margin-top: 100px;
+}
+
+.about {
+    height: 610px;
+}
+
+.about img {
+    height: 610px;
+    width: 618px;
+}
+
+.about .card {
+    width: 450px;
+    height: 290px;
+    border: 0;
+}
+
+.about .card .card-title {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    text-align: left;
+}
+
+.about .card .card-text{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 29px;
+    text-align: left;
+}
+
