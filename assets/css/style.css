@@ -1,8 +1,7 @@
 body {
     width: 100%;
-    max-width: 1440px;
+    max-width: 1440px;  
     min-width: 1440px;
-    /* display: flex; */
     justify-content: center;
     margin: 0;
     align-items: center;
@@ -12,7 +11,11 @@ body {
 }
 
 .wrapper {
-    height: 754px;
+    align-items: center;
+}
+
+.navbar {
+    z-index: 5;
 }
 
 .navbar img{
@@ -62,12 +65,13 @@ body {
 
 .hero {
     height: 654px;
+    position: relative;
 }
 
 .hero .title{
     width: 553px;
     height: 136px;
-    margin-top: 170px;
+    margin-top: 150px;
     margin-left: 135px;
     gap: 0px;
     opacity: 0px;
@@ -199,7 +203,7 @@ body {
     width: 850px;
     /* width: 1500px; */
     margin-left: auto;
-    margin-right: 0;
+    margin-right: -12PX;
     margin-top: 130px;
     opacity: 0px;
 }
@@ -209,8 +213,8 @@ body {
     margin-left: auto;
     margin-right: 0;
     height: 650px;
-    width: 750px;
-    margin-top: -80px;
+    width: 685px;
+    margin-top: -84px;
     margin-bottom: auto;
 }
 
@@ -572,4 +576,55 @@ body {
     margin-top: -50px;
     letter-spacing: 8px;
     text-decoration: none;
+}
+
+.floating-button{
+
+    /* position: absolute; */
+    z-index: 5;
+    border-radius: 50px;
+}
+
+.floating-button p {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    text-align: left;
+    margin-top: 13px;
+    color: black;
+}
+
+.floating-button svg {
+    width: 25.54px;
+    height: 19.16px;
+    top: 5.75px;
+    left: 2.55px;
+    gap: 0px;
+    opacity: 0px;
+    /* margin-left: ; */
+}
+
+.car-loans {
+    margin-top: -1200px;
+    margin-left: 660px;
+    
+}
+
+.home-loan {
+    margin-top: -915px;
+    margin-left: 1180px;
+}
+
+.floating-button .btn-primary {
+    background-color: rgb(255, 255, 255);
+    width: 191.65px;
+    height: 50px;
+    top: 144px;
+    left: -71px;
+    padding: 0px 27px 0px 27px;
+    gap: 19px;
+    border-radius: 55px 0px 0px 0px;
+    opacity: 0px;
+    border-radius: 50px;
+    border-color: white;
 }
